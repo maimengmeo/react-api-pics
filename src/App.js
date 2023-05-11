@@ -9,6 +9,7 @@ function App() {
     const handleSubmit = async (term) => {
         const result = await searchImages(term);
         setImages(result);
+        console.log(result);
     };
 
     return (
