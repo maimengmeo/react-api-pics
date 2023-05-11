@@ -1,4 +1,4 @@
-function ImageList() {
+function ImageShow({ image }) {
     return <div>Image Show</div>;
 }
-export default App;
+export default ImageShow;

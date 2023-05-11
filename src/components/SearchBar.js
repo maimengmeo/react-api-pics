@@ -5,7 +5,7 @@ function SearchBar({ onSubmit }) {
 
     const handleFormSubmit = (event) => {
         event.preventDefault(); //when enter key press, req wont be send
-        onSubmit("cars");
+        onSubmit(term);
     };
 
     const handleChange = (event) => {
